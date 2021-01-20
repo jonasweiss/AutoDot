@@ -1,0 +1,12 @@
+scikit-image
+scipy
+numpy
+matplotlib
+GPy
+mkl
+pyDOE
+
+
+
+
+
