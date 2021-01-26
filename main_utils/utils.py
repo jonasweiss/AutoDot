@@ -65,7 +65,7 @@ def extract_volume_from_mock_device(lb,ub,res,device):
 
 
 def plot_volume(vols,plot_lb,plot_ub,vol_origin,res,cmap_func=None,cmap='winter',perm=[0,1,2],ax=None):
-    verts, faces, normals, values = measure.marching_cubes_lewiner(vols,0)
+    verts, faces, normals, values = measure.marching_cubes(vols,0)
 
     vol_origin = np.array(vol_origin)
     vol_origin[[0,1,2]]=vol_origin[[1,0,2]]
