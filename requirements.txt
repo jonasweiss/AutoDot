@@ -1,6 +1,8 @@
 scikit-image
 scipy
 numpy
+cython
+imageio
 matplotlib
 GPy
 mkl
